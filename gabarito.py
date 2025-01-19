@@ -59,52 +59,88 @@ pyautogui.press("enter")
 import pandas as pd 
 
 tabela = pd.read_csv('produtos.csv')
+print(tabela)
 
 
-#print(tabela)
+
     
 
 
 # Passo 4: Cadastrar um produto
 
-pyautogui.click(x=414, y=255)
 
-# Codigo
 
-pyautogui.write("MOLO000251")
-pyautogui.press("tab") 
+for linha in tabela.index:
+        
+        
 
-# Marca 
+    pyautogui.click(x=414, y=255)
 
-pyautogui.write("Logitech")
-pyautogui.press("tab") 
+       
+    #Codigo
+        
+    codigo = tabela.loc[linha, "codigo"]
+    pyautogui.write(str(codigo))
+    pyautogui.press("tab") 
 
-# Produto
+    #Marca 
+        
+    marca = tabela.loc[linha, "marca"]
+    pyautogui.write(str(marca))
+    pyautogui.press("tab") 
 
-pyautogui.write("Mouse")
-pyautogui.press("tab") 
+        # Tipo
+        
+    tipo = tabela.loc[linha, "tipo"]
+    pyautogui.write(str(tipo))
+    pyautogui.press("tab")
 
-# Categoria
+    #Categoria
+    
+    categoria = tabela.loc[linha, "categoria"]
+    pyautogui.write(str(categoria))
+    pyautogui.press("tab")  
+    
+        
+    #Preço unitário 
+         
+    preco_unitario = tabela.loc[linha, "preco_unitario"]
+    pyautogui.write(str(preco_unitario))
+    pyautogui.press("tab") 
+    
+    #Custo do produto
+     
+    custo = tabela.loc[linha, "custo"]
+    pyautogui.write(str(custo))
+    pyautogui.press("tab") 
 
-pyautogui.write("1")
-pyautogui.press("tab") 
+    #Observação
+        
+    obs = str(tabela.loc[linha, "obs"]) 
+    
+    if obs != "nan":  
+        pyautogui.write(obs)
+        
+    pyautogui.press("tab")
+    
+    
+    pyautogui.press("enter") #  aperta o botao enviar
+    
+    # Descer para ver a tabela preenchida
+    
+    pyautogui.scroll(-100000)
+     
+     
+    time.sleep(3)
+    # numéro positivo igual a scroll para cima
+    # numéro negativo igual a scroll para baixo
+    
+    # depois sobe para volta a preencer 
 
-# Preço unitário
-
-pyautogui.write("25.95")
-pyautogui.press("tab") 
-
-# Custo do produto
-
-pyautogui.write("6.50")
-pyautogui.press("tab") 
-
-# Observação
-
-pyautogui.write("")
-pyautogui.press("tab")
-pyautogui.press("enter")
-
+    pyautogui.scroll(100000)
+3  
+    
+    # passo 5 : Repitir até que acabe todos os produtos
 
 
 

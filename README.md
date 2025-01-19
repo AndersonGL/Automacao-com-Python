@@ -1,20 +1,19 @@
-*** Automação com python utilizando pyautogui, pandas ,time. entrando no navegador e acessando o sistema da empresa, colando as informações do arquivo csv , preenchendo e cadastrando todos os usuários *** 
+# Automação com Python
 
+**Automação com python utilizando pyautogui, pandas, time. Entrando no navegador e acessando o sistema da empresa, colando as informações do arquivo csv, preenchendo e cadastrando todos os usuários
 
-## Oi👋, eu sou a Anderson! 
-
+## Oi👋, eu sou a Anderson
 
 ## 🚀 About me
+
 **Graduado em Análise e Desenvolvimento de Sistemas.**
 Estou em transição de carreira.  
 
-
 ## 🔗 Links
+
 [![linkedin](https://img.shields.io/badge/portifolio-0A66C?style=for-the-badge&logo=linkedin&logoColor=white)](https://andersonlignelli.netlify.app/)
 
-
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-gouveia-lignelli-0aa33332a/)
-
 
 ## 🛠 Hard Skills
 
@@ -31,4 +30,3 @@ Estou em transição de carreira.
 * **Proatividade**
 * **Trabalho em equipe**
 * **Resiliência.**
-
