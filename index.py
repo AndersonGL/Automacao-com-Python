@@ -5,7 +5,7 @@ import time
 
 pyautogui.PAUSE = 1  # comando para controla a velocidade dos comandos
 
-# Abrir o Sistema da empresa
+# Abrir o Sistema  da empresa
 
 #https: //dlp.hashtagtreinamentos.com/python/intensivao/login
 
@@ -13,7 +13,7 @@ pyautogui.PAUSE = 1  # comando para controla a velocidade dos comandos
 #pyautogui.write ler um texto
 #pyautogui.press clica 
 
-
+   
 # Passo 1: Entrar no sistema da empresa 
 
 
@@ -132,6 +132,7 @@ for linha in tabela.index:
      
      
     time.sleep(3)
+    
     # numéro positivo igual a scroll para cima
     # numéro negativo igual a scroll para baixo
     
