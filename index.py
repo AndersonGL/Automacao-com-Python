@@ -58,7 +58,7 @@ pyautogui.press("enter")
 
 import pandas as pd 
 
-tabela = pd.read_csv('produtos.csv')
+tabela = pd.read_csv('products.csv')
 print(tabela)
 
 
