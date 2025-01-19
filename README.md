@@ -18,7 +18,7 @@ Estou em transição de carreira.
 
 ## 🛠 Hard Skills
 
-**Data Analytics Python, Django, Pandas, Pyautogui, Numpay, Msql, Excel e Power Bi.**
+**Data analicts Python, Django, Pandas, Pyautogui, Numpay, Msql, Excel e Power Bi.**
 
 **Desenvolvimento Front-end**, Conhecimento em **Html, Css, JavaScript e React. Node.js** no lado do servidor.
 
@@ -31,3 +31,4 @@ Estou em transição de carreira.
 * **Proatividade**
 * **Trabalho em equipe**
 * **Resiliência.**
+
