@@ -1,6 +1,6 @@
 # Automação com Python
 
-**Automação com python utilizando pyautogui, pandas, time. Entrando no navegador e acessando o sistema da empresa, Colando as informações do arquivo csv, Preenchendo e cadastrando todos os itens.**
+**Automação com python utilizando pyautogui, pandas, time. Entrando no navegador e acessando o sistema da empresa, Fazendo login no sistema, Colando as informações do arquivo csv r preenchendo e cadastrando todos os itens.**
 
 ## Oi👋, eu sou a Anderson
 
