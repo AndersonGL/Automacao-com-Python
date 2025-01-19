@@ -1,8 +1,8 @@
 
 import pyautogui
 import time
-import pandas as pd 
-import numpy
+
+
 
 
 
@@ -47,7 +47,7 @@ pyautogui.click(x=358, y=384) # clica dentro do campo email
 pyautogui.write("lignelli77@gmail.com")
 
 
-pyautogui.press("tab") # passa para o botão senha
+pyautogui.press("tab") # passa para o botão senha 
 pyautogui.write("fRh5gpxq4u#Nt*y")
 
 pyautogui.press("tab") # passa para o botão logar
@@ -61,17 +61,63 @@ pyautogui.press("enter")
 # criando uma variavel  tabela
 
 
-tabela = pd.read_csv("produtos.csv")
+import pandas as pd 
+
+tabela = pd.read_csv('produtos.csv')
 
 
-
-
-
-
-
-
+print(tabela)
+    
 
 
 
 
 # Passo 4: Cadastrar um produto
+
+pyautogui.click(x=414, y=255)
+
+# Codigo
+
+pyautogui.write("MOLO000251")
+pyautogui.press("tab") 
+
+# Marca 
+
+pyautogui.write("Logitech")
+pyautogui.press("tab") 
+
+#Produto
+
+pyautogui.write("Mouse")
+pyautogui.press("tab") 
+
+#Categoria
+
+pyautogui.write("1")
+pyautogui.press("tab") 
+
+# Preço unitario
+
+pyautogui.write("25.95")
+pyautogui.press("tab") 
+
+# Custo do produto
+
+pyautogui.write("6.50")
+pyautogui.press("tab") 
+
+# Observação
+
+pyautogui.write("")
+pyautogui.press("tab")
+pyautogui.press("enter")
+
+
+
+
+
+
+
+
+
+

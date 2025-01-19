@@ -1,4 +1,4 @@
-
+*** Automação com python utilizando pyautogui, pandas ,time. entrando no navegador e acessando o sistema da empresa, colando as informações do arquivo csv , preenchendo e cadastrando todos os usuários *** 
 
 
 ## Oi👋, eu sou a Anderson! 
