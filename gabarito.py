@@ -1,8 +1,8 @@
 
 import pyautogui
 import time
-import pandas as pd
-
+import pandas as pd 
+import numpy
 
 
 
@@ -61,9 +61,8 @@ pyautogui.press("enter")
 # criando uma variavel  tabela
 
 
-
-
 tabela = pd.read_csv("produtos.csv")
+
 
 
 
