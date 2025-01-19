@@ -3,9 +3,6 @@ import pyautogui
 import time
 
 
-
-
-
 pyautogui.PAUSE = 1  # comando para controla a velocidade dos comandos
 
 # Abrir o Sistema da empresa
@@ -18,8 +15,6 @@ pyautogui.PAUSE = 1  # comando para controla a velocidade dos comandos
 
 
 # Passo 1: Entrar no sistema da empresa 
-
-
 
 
 pyautogui.press("win") # Abri a janela do windows
@@ -66,10 +61,8 @@ import pandas as pd
 tabela = pd.read_csv('produtos.csv')
 
 
-print(tabela)
+#print(tabela)
     
-
-
 
 
 # Passo 4: Cadastrar um produto
@@ -86,17 +79,17 @@ pyautogui.press("tab")
 pyautogui.write("Logitech")
 pyautogui.press("tab") 
 
-#Produto
+# Produto
 
 pyautogui.write("Mouse")
 pyautogui.press("tab") 
 
-#Categoria
+# Categoria
 
 pyautogui.write("1")
 pyautogui.press("tab") 
 
-# Preço unitario
+# Preço unitário
 
 pyautogui.write("25.95")
 pyautogui.press("tab") 
