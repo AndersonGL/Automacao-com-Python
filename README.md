@@ -17,9 +17,9 @@ Estou em transição de carreira.
 
 ## 🛠 Hard Skills
 
-**Data analicts Línguaguem Python, Framework Django, Pandas, Pyautogui, Numpay, Msql, Excel e Power Bi.**
+**Data analicts Línguaguem Python, Framework Django,Flash, Bibliotecas Pandas, Pyautogui, Numpay, Msql, Excel e Power Bi.**
 
-**Desenvolvimento Front-end**, Conhecimento em **Html, Css, JavaScript e React. Node.js** no lado do servidor.
+**Desenvolvimento Front-end**, Conhecimento em **Html, Css, JavaScript , Framework React e Node.js** no lado do servidor.
 
 **Desenvolvimento Back-End**, Conhecimento em **Php e o Framework Laravel, Api Rest, Postman e Msql**.
 
