@@ -4,7 +4,7 @@
 
 ## Oi👋, eu sou a Anderson
 
-## 🚀 About me
+## 🚀 Sobre
 
 **Graduado em Análise e Desenvolvimento de Sistemas.**
 Estou em transição de carreira.  
