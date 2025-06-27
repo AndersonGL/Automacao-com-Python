@@ -1,8 +1,3 @@
-# Automação com Python
-
-**Automação com python utilizando pyautogui, pandas, time. Entrando no navegador e acessando o sistema da empresa, Fazendo login no sistema, Colando as informações do arquivo csv e preenchendo e cadastrando todos os itens.**
-
-
 # ⚙️ Automação com Python
 
 Automação inteligente com **Python** para agilizar o cadastro de dados no sistema da empresa. Utilizando bibliotecas poderosas como `PyAutoGUI`, `Pandas` e `Time`, o script simula ações humanas para realizar tarefas repetitivas de forma segura, rápida e eficiente.
